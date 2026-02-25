@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '172.31.24.235'
+        SERVER_IP      = '172.31.38.118'
         SSH_CREDENTIAL = 'node-app-key'
-        REPO_URL       = 'https://github.com/iamtruptimane/iamtruptimane.git'
+        REPO_URL       = 'https://github.com/narendra-clouds/node-app.git'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
-        REMOTE_PATH    = '/home/ubuntu/port-folio'
+        REMOTE_PATH    = '/home/ubuntu/node-app'
     }
 
     stages {
